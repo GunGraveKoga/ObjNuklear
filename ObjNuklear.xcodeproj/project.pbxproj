@@ -6,8 +6,94 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ED7DC5DB1FE2C27A0057AE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7DC5DA1FE2C27A0057AE1D /* main.m */; };
+		ED7DC5EE1FE2C3650057AE1D /* libObjNuklear.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7DC5CD1FE2C1AD0057AE1D /* libObjNuklear.a */; };
+		ED7DC5F01FE2C3A10057AE1D /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7DC5EF1FE2C3A10057AE1D /* ObjFW.framework */; };
+		ED7DC5F21FE2C3C40057AE1D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7DC5F11FE2C3BD0057AE1D /* OpenGL.framework */; };
+		ED7DC5F31FE2C4340057AE1D /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7DC5EF1FE2C3A10057AE1D /* ObjFW.framework */; };
+		ED7DC6001FE2C7FD0057AE1D /* libObjGLFW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7DC5FB1FE2C7F10057AE1D /* libObjGLFW.a */; };
+		ED7DC60E1FE2C9280057AE1D /* NKScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7DC60C1FE2C9280057AE1D /* NKScreen.h */; };
+		ED7DC60F1FE2C9280057AE1D /* NKScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7DC60D1FE2C9280057AE1D /* NKScreen.m */; };
+		ED7DC6131FE2CA070057AE1D /* NKContext.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7DC6111FE2CA070057AE1D /* NKContext.h */; };
+		ED7DC6141FE2CA070057AE1D /* NKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7DC6121FE2CA070057AE1D /* NKContext.m */; };
+		ED7DC6191FE2CAB50057AE1D /* nuklear.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7DC6181FE2CAB50057AE1D /* nuklear.h */; };
+		ED7DC6291FE2D4FA0057AE1D /* NKConvertConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7DC6271FE2D4FA0057AE1D /* NKConvertConfig.h */; };
+		ED7DC62A1FE2D4FA0057AE1D /* NKConvertConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7DC6281FE2D4FA0057AE1D /* NKConvertConfig.m */; };
+		ED7DC62F1FE2EE430057AE1D /* NKWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7DC62D1FE2EE430057AE1D /* NKWindow.h */; };
+		ED7DC6301FE2EE430057AE1D /* NKWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7DC62E1FE2EE430057AE1D /* NKWindow.m */; };
+		ED7DC6351FE2EE890057AE1D /* NKInput.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7DC6331FE2EE890057AE1D /* NKInput.h */; };
+		ED7DC6361FE2EE890057AE1D /* NKInput.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7DC6341FE2EE890057AE1D /* NKInput.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7DC5FA1FE2C7F10057AE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED7DC5241FE020660057AE1D;
+			remoteInfo = ObjGLFW;
+		};
+		ED7DC5FC1FE2C7F10057AE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED7DC53D1FE020F60057AE1D;
+			remoteInfo = nuklear;
+		};
+		ED7DC5FE1FE2C7F10057AE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED7DC5621FE187110057AE1D;
+			remoteInfo = nuklear_sokol;
+		};
+		ED7DC61E1FE2CB800057AE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7DC5C51FE2C1AD0057AE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7DC5CC1FE2C1AD0057AE1D;
+			remoteInfo = ObjNuklear;
+		};
+		ED7DC6201FE2CB8C0057AE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7DC5231FE020660057AE1D;
+			remoteInfo = ObjGLFW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED7DC5D61FE2C27A0057AE1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		ED7DC5CD1FE2C1AD0057AE1D /* libObjNuklear.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjNuklear.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7DC5D81FE2C27A0057AE1D /* Examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Examples; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7DC5DA1FE2C27A0057AE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7DC5EF1FE2C3A10057AE1D /* ObjFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjFW.framework; path = ../../../Library/Frameworks/ObjFW.framework; sourceTree = "<group>"; };
+		ED7DC5F11FE2C3BD0057AE1D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjGLFW.xcodeproj; path = ../ObjGLFW/ObjGLFW.xcodeproj; sourceTree = "<group>"; };
+		ED7DC60C1FE2C9280057AE1D /* NKScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKScreen.h; sourceTree = "<group>"; };
+		ED7DC60D1FE2C9280057AE1D /* NKScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKScreen.m; sourceTree = "<group>"; };
+		ED7DC6111FE2CA070057AE1D /* NKContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKContext.h; sourceTree = "<group>"; };
+		ED7DC6121FE2CA070057AE1D /* NKContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKContext.m; sourceTree = "<group>"; };
+		ED7DC6181FE2CAB50057AE1D /* nuklear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nuklear.h; sourceTree = "<group>"; };
+		ED7DC6271FE2D4FA0057AE1D /* NKConvertConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKConvertConfig.h; sourceTree = "<group>"; };
+		ED7DC6281FE2D4FA0057AE1D /* NKConvertConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKConvertConfig.m; sourceTree = "<group>"; };
+		ED7DC62D1FE2EE430057AE1D /* NKWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKWindow.h; sourceTree = "<group>"; };
+		ED7DC62E1FE2EE430057AE1D /* NKWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKWindow.m; sourceTree = "<group>"; };
+		ED7DC6331FE2EE890057AE1D /* NKInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKInput.h; sourceTree = "<group>"; };
+		ED7DC6341FE2EE890057AE1D /* NKInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKInput.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15,6 +101,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7DC5F31FE2C4340057AE1D /* ObjFW.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7DC5D51FE2C27A0057AE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7DC6001FE2C7FD0057AE1D /* libObjGLFW.a in Frameworks */,
+				ED7DC5EE1FE2C3650057AE1D /* libObjNuklear.a in Frameworks */,
+				ED7DC5F01FE2C3A10057AE1D /* ObjFW.framework in Frameworks */,
+				ED7DC5F21FE2C3C40057AE1D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,7 +122,11 @@
 		ED7DC5C41FE2C1AD0057AE1D = {
 			isa = PBXGroup;
 			children = (
+				ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */,
+				ED7DC5DF1FE2C28A0057AE1D /* ObjNuklear */,
+				ED7DC5D91FE2C27A0057AE1D /* Examples */,
 				ED7DC5CE1FE2C1AD0057AE1D /* Products */,
+				ED7DC5EC1FE2C3610057AE1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -32,6 +134,52 @@
 			isa = PBXGroup;
 			children = (
 				ED7DC5CD1FE2C1AD0057AE1D /* libObjNuklear.a */,
+				ED7DC5D81FE2C27A0057AE1D /* Examples */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7DC5D91FE2C27A0057AE1D /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				ED7DC5DA1FE2C27A0057AE1D /* main.m */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		ED7DC5DF1FE2C28A0057AE1D /* ObjNuklear */ = {
+			isa = PBXGroup;
+			children = (
+				ED7DC6181FE2CAB50057AE1D /* nuklear.h */,
+				ED7DC60C1FE2C9280057AE1D /* NKScreen.h */,
+				ED7DC60D1FE2C9280057AE1D /* NKScreen.m */,
+				ED7DC6111FE2CA070057AE1D /* NKContext.h */,
+				ED7DC6121FE2CA070057AE1D /* NKContext.m */,
+				ED7DC6271FE2D4FA0057AE1D /* NKConvertConfig.h */,
+				ED7DC6281FE2D4FA0057AE1D /* NKConvertConfig.m */,
+				ED7DC62D1FE2EE430057AE1D /* NKWindow.h */,
+				ED7DC62E1FE2EE430057AE1D /* NKWindow.m */,
+				ED7DC6331FE2EE890057AE1D /* NKInput.h */,
+				ED7DC6341FE2EE890057AE1D /* NKInput.m */,
+			);
+			path = ObjNuklear;
+			sourceTree = "<group>";
+		};
+		ED7DC5EC1FE2C3610057AE1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7DC5F11FE2C3BD0057AE1D /* OpenGL.framework */,
+				ED7DC5EF1FE2C3A10057AE1D /* ObjFW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7DC5F51FE2C7F10057AE1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7DC5FB1FE2C7F10057AE1D /* libObjGLFW.a */,
+				ED7DC5FD1FE2C7F10057AE1D /* nuklear */,
+				ED7DC5FF1FE2C7F10057AE1D /* nuklear_sokol */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -43,6 +191,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7DC6191FE2CAB50057AE1D /* nuklear.h in Headers */,
+				ED7DC62F1FE2EE430057AE1D /* NKWindow.h in Headers */,
+				ED7DC6351FE2EE890057AE1D /* NKInput.h in Headers */,
+				ED7DC60E1FE2C9280057AE1D /* NKScreen.h in Headers */,
+				ED7DC6131FE2CA070057AE1D /* NKContext.h in Headers */,
+				ED7DC6291FE2D4FA0057AE1D /* NKConvertConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +220,25 @@
 			productReference = ED7DC5CD1FE2C1AD0057AE1D /* libObjNuklear.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		ED7DC5D71FE2C27A0057AE1D /* Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7DC5DC1FE2C27A0057AE1D /* Build configuration list for PBXNativeTarget "Examples" */;
+			buildPhases = (
+				ED7DC5D41FE2C27A0057AE1D /* Sources */,
+				ED7DC5D51FE2C27A0057AE1D /* Frameworks */,
+				ED7DC5D61FE2C27A0057AE1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7DC6211FE2CB8C0057AE1D /* PBXTargetDependency */,
+				ED7DC61F1FE2CB800057AE1D /* PBXTargetDependency */,
+			);
+			name = Examples;
+			productName = Examples;
+			productReference = ED7DC5D81FE2C27A0057AE1D /* Examples */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -76,6 +249,10 @@
 				ORGANIZATIONNAME = GunGraveKoga;
 				TargetAttributes = {
 					ED7DC5CC1FE2C1AD0057AE1D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ED7DC5D71FE2C27A0057AE1D = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -91,22 +268,79 @@
 			mainGroup = ED7DC5C41FE2C1AD0057AE1D;
 			productRefGroup = ED7DC5CE1FE2C1AD0057AE1D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ED7DC5F51FE2C7F10057AE1D /* Products */;
+					ProjectRef = ED7DC5F41FE2C7F10057AE1D /* ObjGLFW.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ED7DC5CC1FE2C1AD0057AE1D /* ObjNuklear */,
+				ED7DC5D71FE2C27A0057AE1D /* Examples */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ED7DC5FB1FE2C7F10057AE1D /* libObjGLFW.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libObjGLFW.a;
+			remoteRef = ED7DC5FA1FE2C7F10057AE1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED7DC5FD1FE2C7F10057AE1D /* nuklear */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = nuklear;
+			remoteRef = ED7DC5FC1FE2C7F10057AE1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED7DC5FF1FE2C7F10057AE1D /* nuklear_sokol */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = nuklear_sokol;
+			remoteRef = ED7DC5FE1FE2C7F10057AE1D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED7DC5C91FE2C1AD0057AE1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7DC6361FE2EE890057AE1D /* NKInput.m in Sources */,
+				ED7DC6141FE2CA070057AE1D /* NKContext.m in Sources */,
+				ED7DC60F1FE2C9280057AE1D /* NKScreen.m in Sources */,
+				ED7DC6301FE2EE430057AE1D /* NKWindow.m in Sources */,
+				ED7DC62A1FE2D4FA0057AE1D /* NKConvertConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7DC5D41FE2C27A0057AE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7DC5DB1FE2C27A0057AE1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7DC61F1FE2CB800057AE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7DC5CC1FE2C1AD0057AE1D /* ObjNuklear */;
+			targetProxy = ED7DC61E1FE2CB800057AE1D /* PBXContainerItemProxy */;
+		};
+		ED7DC6211FE2CB8C0057AE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjGLFW;
+			targetProxy = ED7DC6201FE2CB8C0057AE1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ED7DC5CF1FE2C1AD0057AE1D /* Debug */ = {
@@ -138,7 +372,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -157,10 +391,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-fconstant-string-class=OFConstantString",
+					"-fno-constant-cfstrings",
+					"-fblocks",
+					"-fno-objc-arc",
+					"-fno-modules",
+				);
+				OTHER_LDFLAGS = "-lglfw";
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /Users/y.vovk/ObjGLFW;
 			};
 			name = Debug;
 		};
@@ -193,7 +438,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -206,9 +451,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"-fconstant-string-class=OFConstantString",
+					"-fno-constant-cfstrings",
+					"-fblocks",
+					"-fno-objc-arc",
+					"-fno-modules",
+				);
+				OTHER_LDFLAGS = "-lglfw";
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /Users/y.vovk/ObjGLFW;
 			};
 			name = Release;
 		};
@@ -217,6 +473,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +486,36 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED7DC5DD1FE2C27A0057AE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED7DC5DE1FE2C27A0057AE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -247,6 +537,15 @@
 			buildConfigurations = (
 				ED7DC5D21FE2C1AD0057AE1D /* Debug */,
 				ED7DC5D31FE2C1AD0057AE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7DC5DC1FE2C27A0057AE1D /* Build configuration list for PBXNativeTarget "Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7DC5DD1FE2C27A0057AE1D /* Debug */,
+				ED7DC5DE1FE2C27A0057AE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
